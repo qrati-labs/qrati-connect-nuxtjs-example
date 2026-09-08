@@ -25,7 +25,7 @@ pnpm build
 pnpm preview
 ```
 
-The widget is registered in `plugins/qrati.client.ts` and rendered by `app/app.vue`. The example uses organization ID `69ad9c7876d8bf6f864b3a65` by default; set `NUXT_PUBLIC_EXAMPLE_ORG_ID` to use another organization.
+The widget is registered in `plugins/qrati.client.ts` and rendered by `app/app.vue`. Set `NUXT_PUBLIC_ORGANIZATION_ID` to select the Qrati organization.
 
 ## Integration
 

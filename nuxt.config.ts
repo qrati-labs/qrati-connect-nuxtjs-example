@@ -4,5 +4,5 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   app: { baseURL: '/connect/nuxtjs-example/' },
   css: ['~/assets/css/main.css'],
-  runtimeConfig: { public: { organizationId: '69ad9c7876d8bf6f864b3a65' } },
+  runtimeConfig: { public: { organizationId: '', gtmId: '' } },
 })
