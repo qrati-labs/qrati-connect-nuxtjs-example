@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2026-07-06',
   devtools: { enabled: false },
-  nitro: { preset: 'cloudflare_module' },
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: { deployConfig: true },
+  },
   app: { baseURL: '/connect/nuxtjs-example/' },
   css: ['~/assets/css/main.css'],
   runtimeConfig: { public: { organizationId: '', gtmId: '' } },
