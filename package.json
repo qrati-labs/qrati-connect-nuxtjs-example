@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "pnpm exec wrangler deploy .output/server/index.mjs --assets .output/public/connect/nuxtjs-example",
+    "deploy": "pnpm exec wrangler --cwd .output deploy",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
