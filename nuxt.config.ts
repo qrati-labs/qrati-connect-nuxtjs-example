@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/connect/nuxtjs-example/',
-    head: { script: [{ src: 'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js', defer: true }] },
+    head: { script: [{ src: 'https://code.iconify.design/3/3.1.1/iconify.min.js', defer: true }] },
   },
   css: ['~/assets/css/main.css'],
   runtimeConfig: { public: { organizationId: '', gtmId: '' } },
